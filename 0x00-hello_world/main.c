@@ -6,5 +6,6 @@
  */
 int main(void)
 {
+printf("I am in school");
 return (0);
 }
