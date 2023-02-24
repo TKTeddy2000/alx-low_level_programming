@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet Use _putchar function to print
  *
- * Return: Always 0 (Success)
+ * alphabet a to z
  */
 void print_alphabet(void)
 {
