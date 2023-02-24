@@ -2,15 +2,10 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: print_alphabet
- * from a - z
- *
- * Return: Always 0 (Success)
+ * print_alphabet - Prints alphabet
  */
 
-void print_alphabet(void)/* function prints a - z */
+void print_alphabet(void)
 {
 	int i;
 
