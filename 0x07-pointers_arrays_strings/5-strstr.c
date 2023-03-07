@@ -1,0 +1,36 @@
+/**
+ * _strstr - Function that locate substring
+ *
+ * @haystack: input string that search for matching
+ *            substrings
+ * @needle: subtring to search for
+ *
+ * Return: a pointer to the beginning
+ *         of the located substring or
+ *         NULL if substring is not found
+ */
+
+char *_strstr(char *haystack, char *needle)
+{
+	/**
+	 * we initialize a helping variable
+	 * to assist in returning one of
+	 * our parameters pointers haystack
+	 */
+	char *x, *y;
+
+	while (*haystack != '\0')
+	{
+		x = haystack;
+		y = needle;
+		while (*y != '\0' && *haystack == *y)
+		{
+			haystack++;
+			y++;
+		}
+		if (!*y)
+			return (x);
+		haystack++;
+	}
+	return ('\0');
+}
