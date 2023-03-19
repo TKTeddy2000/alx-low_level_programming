@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main- a program that prints its name
+ * main - Print name of program
  *
  * @argc: holds the number of arguments passed
  * @argv: array pointer that holds the arguments passed
@@ -10,10 +10,9 @@
  * Return: Always 0 (Success)
  */
 
-int main(int __attribute__((unused)) argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int i = 0;
 
-	printf("%s\n", argv[i]);
+	printf("%s\n", argv[argc * 0]);
 	return (0);
 }
